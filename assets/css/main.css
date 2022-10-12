@@ -1,0 +1,22 @@
+/*
+0 - 600 : Phone
+600 - 900 : Tablet portrait 
+900 - 1200 : Tablet landscape
+[1200 - 1800] : is where aor normal styles apply
+1800 + : big screens 
+$breakpoint argument choises
+- phone 
+- tab-port
+- tab-land
+- big-desktop
+1em = 16px
+ORDER: Base + typography > general layout + grid > page layout > components 
+*/
+html {
+  font-size: 62.5% !important;
+}
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75% !important;
+  }
+}
