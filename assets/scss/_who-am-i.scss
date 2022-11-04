@@ -1,0 +1,78 @@
+.who {
+	padding: 20rem 0;
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+	justify-content: space-between;
+
+	&__left {
+		width: 48%;
+		margin-top: 1rem;
+	}
+	&__suptitle {
+		margin-left: 3rem;
+
+		font-family: 'Manrope';
+		font-weight: 400;
+		font-size: 1.8rem;
+		line-height: 126.02%;
+
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+
+		color: #111111;
+	}
+	&__title {
+		margin-top: 3rem;
+
+		font-family: 'Manrope';
+		font-weight: 700;
+		font-size: 4.2rem;
+		line-height: 150.02%;
+
+		letter-spacing: -0.02em;
+
+		color: #111111;
+	}
+	&__right {
+		width: 48%;
+	}
+	&__description {
+		font-family: 'Manrope';
+		font-weight: 300;
+		font-size: 1.9rem;
+		line-height: 225.02%;
+
+		letter-spacing: 0.02em;
+
+		color: #282828;
+
+		margin-bottom: 6rem;
+	}
+	&__read-more {
+
+		font-family: 'Manrope';
+		font-weight: 600;
+		font-size: 1.6rem;
+		line-height: 234.52%;
+
+		text-align: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		text-decoration: none;
+		border: 1px solid #000;
+
+		color: #FFFFFF;
+
+		padding: 1.2rem 4.8rem;
+		background: #000;
+		transition: all .3s;
+
+		&:hover {
+			background: #fff;
+			color: #000;
+		}
+
+	}
+}
